@@ -22,9 +22,9 @@ def test(request):
 
         file.write(card +'\n')
 
-        cats = ['серьезный', 'скромный']
-        pics = ['/static/серьезный.jpg', '/static/скромный.jpg']
-        rand = random.randint(0, 1)
+        cats = ['серьезный', 'скромный', 'злой']
+        pics = ['/static/серьезный.jpg', '/static/скромный.jpg', '/static/злой.jpg']
+        rand = random.randint(0, 2)
         cat = cats[rand]
         pic = pics[rand]
 
