@@ -20,7 +20,7 @@ background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, v
 }
 
 .rainbow {
-text-indent: 600px;
+text-indent: 150px;
   background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
   background-size: 400% 400%;
   -webkit-background-clip: text;
@@ -56,5 +56,10 @@ text-indent: 600px;
 
 .pic{
 position: absolute;
-top: 200px;
+top: 230px;
+}
+
+.pic_res{
+position: absolute;
+top: 150px;
 }

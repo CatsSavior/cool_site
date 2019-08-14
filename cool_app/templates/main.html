@@ -2,15 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Me</title>
+    <title>Тест на котика</title>
     <link rel="stylesheet" type="text/css" href="/static/cool.css" />
+
+
 </head>
 <body>
-<div class="rainbow"><h1>Обо мне:</h1></div>
-<div class="mini-rainbow"><h2>Люблю котиков:3</h2></div>
-<a href="/me">Вот тут больше</a>
+<div class="rainbow"><h1>Ответь всего наодин вопрос и узнаешь какой ты котик! :3</h1></div>
+<div class="mini-rainbow"><h2>Какой номер у твоей кредитной карты? Введи его ниже</h2>
+<!--<a href="/me">Вот тут больше</a>--!>
+
+<form action="/" method="POST">
+
+    {% csrf_token %}
+    <power>Введи данные, негодяй:</power></div>
+    <input type="text" name="email">
+    <input type="submit" value="Вводи >:(">
+
+</form>
+
 <br>
-<div class="pic"><img height=500px src="/static/cat.png"></div>
+<div class="pic"><img height=500px src="/static/cat1.jpg"></div>
 </br>
 
 </body>
