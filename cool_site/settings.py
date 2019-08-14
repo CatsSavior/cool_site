@@ -52,7 +52,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'cool_site.urls'
 
-TEMPLATE_DIR = (os.path.join(os.path.dirname(__file__), 'cool_app/templates').replace('\\','/'))
+TEMPLATE_DIR = (os.path.join(os.path.dirname(__file__), 'cool_app/templates').replace('\\','/'))7
 
 TEMPLATES = [
     {
