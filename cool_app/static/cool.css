@@ -1,0 +1,60 @@
+body{
+background-color:#c9a1e1;
+}
+
+h2{
+text-indent:50px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+a{
+text-indent:50px;
+text-decoration: none;
+font-family:Arial, Helvetica, sans-serif;
+background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: rainbow 5s ease infinite;
+  animation: rainbow 5s ease infinite;
+}
+
+.rainbow {
+text-indent: 600px;
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: rainbow 20s ease infinite;
+  animation: rainbow 20s ease infinite;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.mini-rainbow{
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: rainbow 10s ease infinite;
+  animation: rainbow 10s ease infinite;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+@-webkit-keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+.pic{
+position: absolute;
+top: 200px;
+}
